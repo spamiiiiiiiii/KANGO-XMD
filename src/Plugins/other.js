@@ -86,7 +86,7 @@ module.exports = [{
       const _0x3ebbbb = performance.now();
       const _0x3f014e = (_0x3ebbbb - _0x210da5).toFixed(2) + " ms";
       await _0x2f5590.sendMessage(_0x20d4d2.chat, {
-        text: "*⚡ 𝙆𝘼𝙉𝙂𝙊 𝙎𝙥𝙚𝙚𝙙:* " + _0x3f014e,
+        text: "*⚡𝙎𝙥𝙚𝙚𝙙:* " + _0x3f014e,
         edit: _0x5aeaf4.key,
         contextInfo: {
           quotedMessage: _0x20d4d2.message
@@ -105,7 +105,7 @@ module.exports = [{
 }, {
   command: ["alive", "uptime"],
   operate: async ({ Cypher: David, m, reply }) => {
-    const msgai = "*🌹Hi. I am 👑KANGO-XMD, a friendly WhatsApp bot from Ghana🇬🇭, created by Hector Manuel. Don't worry, I'm still Alive☺🚀*";
+    const msgai = "*🌹Hi. I am 👑Chaudhry-XMD, a friendly WhatsApp bot, created by AhSaN ChAuDhRy. Don't worry, I'm still Alive☺🚀*";
     const imagePath = './Images/alive.png'; // Keep or update if you want to change this too
 
     // Random music from the 'Music' folder
@@ -144,7 +144,7 @@ module.exports = [{
   command: ["script"],
   operate: async ({ m, Cypher, reply }) => {
     try {
-      const repoUrl = "https://github.com/OfficialKango/KANGO-XMD";
+      const repoUrl = "https://github.com/";
       const zipUrl = `${repoUrl}/archive/refs/heads/main.zip`;
 
       // Fetch repo details to get avatar
@@ -154,7 +154,7 @@ module.exports = [{
       });
 
       const caption =
-        `*KANGO-XMD Repository*\n\n` +
+        `*Chaudhry-XMD Repository*\n\n` +
         `🔗 *Repository URL*: ${repoUrl}\n` +
         `📂 *Branch*: main\n` +
         `📦 *File*: KANGO-XMD-main.zip\n\n` +
