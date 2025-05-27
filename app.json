@@ -1,10 +1,10 @@
 {
-  "name": "KANGO-XMD",
+  "name": "Chaudhry-XMD",
   "version": "2.4.0",
-  "description": "KANGO-XMD, the best WhatsApp Bot in Ghana",
-  "logo": "https://i.imgur.com/GVW7aoD.jpeg",
+  "description": "Chaudhry, the best WhatsApp Bot",
+  "logo": "https://files.catbox.moe/zr4gz0.jpg",
   "keywords": ["whatsapp", "bot", "md"],
-  "repository": "https://github.com/official_kango/KANGO-XMD-V2.git",
+  "repository": "https://github.com/",
   "stack": "container",
   "scripts": {
     "start": "node index.js"
