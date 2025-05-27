@@ -207,13 +207,11 @@ module.exports = [{
       });
 
       const caption =
-        `*🌹 KANGO-XMD Repository*\n\n` +
-        `🔗 *URL:* ${repo.html_url}\n` +
-        `📝 *Description:* ${repo.description || "No description"}\n` +
+        `*🌹 Chaudhry-XMD Repository*\n\n` +
+        `📝 *Description:* ${repo.description || "Hello MF"}\n` +
         `🌟 *Stars:* ${repo.stargazers_count}\n` +
         `🔀 *Forks:* ${repo.forks_count}\n` +
         `📅 *Last Updated:* ${new Date(repo.updated_at).toLocaleString()}\n\n` +
-        `👨‍💻 *Developer:* ${repo.owner.login}\n` +
         `✨ *Tip:* Fork it, star it, and deploy your version!\n\n` +
         `@${_0x40a183.sender.split("@")[0]} don’t forget to star the repo!`;
 
@@ -222,7 +220,7 @@ module.exports = [{
         contextInfo: {
           mentionedJid: [_0x40a183.sender],
           externalAdReply: {
-            title: "KANGO-XMD REPO",
+            title: "CHAUDHRY-XMD REPO",
             mediaType: 1,
             thumbnail: Buffer.from(avatarBuffer),
             sourceUrl: repo.html_url
