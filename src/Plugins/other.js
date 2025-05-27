@@ -106,7 +106,7 @@ module.exports = [{
   command: ["alive", "uptime"],
   operate: async ({ Cypher: David, m, reply }) => {
     const msgai = "*🌹Hi. I am 👑Chaudhry-XMD, a friendly WhatsApp bot, created by AhSaN ChAuDhRy. Don't worry, I'm still Alive☺🚀*";
-    const imagePath = './Images/alive.png'; // Keep or update if you want to change this too
+    const imagePath = './Images/live.png'; // Keep or update if you want to change this too
 
     // Random music from the 'Music' folder
     const musicFiles = [
