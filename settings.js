@@ -16,7 +16,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || 'KANGO~Av0QmYwa#E8ClKnzaxkf_O1135dFmI8ruyzYvUiEocuyA00OYTII' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~Z21BHB5Y#nJsp11_cVtiror4t3Mxy47s7jwHA7K4IrEZLH5jNJ-4' 
 //Enter your 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
@@ -41,7 +41,7 @@ global.author = process.env.STICKER_AUTHOR_NAME || "GEM"
 
 //----------------------[ TIMEZONE ]--------------------//
 
-global.timezones = process.env.TIMEZONE || "Asia/Karachi" 
+global.timezones = process.env.TIMEZONE || "Asia/Kolkata" 
 //Don't edit this if you don't know!
 
 //----------------[ GITHUB DATABASE ]-----------------//
